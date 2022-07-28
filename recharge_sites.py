@@ -118,8 +118,8 @@ class BaseSite(Site):
         # self.DiversionSources = '1, 2, 3, 4'
         
         srcs = list(map(lambda a: int(a), self.DiversionSources.split(';')))
-        for s in srcs:
-            if s in self.all_sources
+        # for s in srcs:
+        #     if s in self.all_sources
 
         self.compatible_sources = filter()
         
